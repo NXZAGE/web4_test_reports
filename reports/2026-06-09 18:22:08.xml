@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="JUnit Jupiter" tests="13" skipped="0" failures="0" errors="0" time="1.084" hostname="NXZAGE-LAPTOP" timestamp="2026-06-09T18:21:33">
+<testsuite name="JUnit Jupiter" tests="13" skipped="0" failures="0" errors="0" time="1.223" hostname="NXZAGE-LAPTOP" timestamp="2026-06-09T18:22:10">
 <properties>
 <property name="file.encoding" value="UTF-8"/>
 <property name="file.separator" value="/"/>
@@ -52,25 +52,25 @@
 <property name="user.timezone" value="Europe/Moscow"/>
 <property name="user.variant" value=""/>
 </properties>
-<testcase name="registerHitNullTest()" classname="com.itmo.nxzage.web4.services.HitServiceTest" time="0.819">
+<testcase name="registerHitNullTest()" classname="com.itmo.nxzage.web4.services.HitServiceTest" time="0.858">
 <system-out><![CDATA[
 unique-id: [engine:junit-jupiter]/[class:com.itmo.nxzage.web4.services.HitServiceTest]/[method:registerHitNullTest()]
 display-name: JUnit Jupiter > HitServiceTest > registerHitNullTest()
 ]]></system-out>
 </testcase>
-<testcase name="isHitTest(double, double, double, boolean)[1]" classname="com.itmo.nxzage.web4.services.AreaCheckServiceTest" time="0.029">
+<testcase name="isHitTest(double, double, double, boolean)[1]" classname="com.itmo.nxzage.web4.services.AreaCheckServiceTest" time="0.056">
 <system-out><![CDATA[
 unique-id: [engine:junit-jupiter]/[class:com.itmo.nxzage.web4.services.AreaCheckServiceTest]/[test-template:isHitTest(double, double, double, boolean)]/[test-template-invocation:#1]
 display-name: JUnit Jupiter > AreaCheckServiceTest > isHitTest(double, double, double, boolean) > [1] "-2.0", "2.0", "4.0", "true"
 ]]></system-out>
 </testcase>
-<testcase name="isHitTest(double, double, double, boolean)[2]" classname="com.itmo.nxzage.web4.services.AreaCheckServiceTest" time="0">
+<testcase name="isHitTest(double, double, double, boolean)[2]" classname="com.itmo.nxzage.web4.services.AreaCheckServiceTest" time="0.001">
 <system-out><![CDATA[
 unique-id: [engine:junit-jupiter]/[class:com.itmo.nxzage.web4.services.AreaCheckServiceTest]/[test-template:isHitTest(double, double, double, boolean)]/[test-template-invocation:#2]
 display-name: JUnit Jupiter > AreaCheckServiceTest > isHitTest(double, double, double, boolean) > [2] "-4.0", "0.0", "4.0", "true"
 ]]></system-out>
 </testcase>
-<testcase name="isHitTest(double, double, double, boolean)[3]" classname="com.itmo.nxzage.web4.services.AreaCheckServiceTest" time="0">
+<testcase name="isHitTest(double, double, double, boolean)[3]" classname="com.itmo.nxzage.web4.services.AreaCheckServiceTest" time="0.001">
 <system-out><![CDATA[
 unique-id: [engine:junit-jupiter]/[class:com.itmo.nxzage.web4.services.AreaCheckServiceTest]/[test-template:isHitTest(double, double, double, boolean)]/[test-template-invocation:#3]
 display-name: JUnit Jupiter > AreaCheckServiceTest > isHitTest(double, double, double, boolean) > [3] "-3.0", "3.0", "4.0", "false"
@@ -82,49 +82,49 @@ unique-id: [engine:junit-jupiter]/[class:com.itmo.nxzage.web4.services.AreaCheck
 display-name: JUnit Jupiter > AreaCheckServiceTest > isHitTest(double, double, double, boolean) > [4] "1.0", "1.0", "4.0", "true"
 ]]></system-out>
 </testcase>
-<testcase name="isHitTest(double, double, double, boolean)[5]" classname="com.itmo.nxzage.web4.services.AreaCheckServiceTest" time="0">
+<testcase name="isHitTest(double, double, double, boolean)[5]" classname="com.itmo.nxzage.web4.services.AreaCheckServiceTest" time="0.001">
 <system-out><![CDATA[
 unique-id: [engine:junit-jupiter]/[class:com.itmo.nxzage.web4.services.AreaCheckServiceTest]/[test-template:isHitTest(double, double, double, boolean)]/[test-template-invocation:#5]
 display-name: JUnit Jupiter > AreaCheckServiceTest > isHitTest(double, double, double, boolean) > [5] "1.0", "2.0", "4.0", "true"
 ]]></system-out>
 </testcase>
-<testcase name="isHitTest(double, double, double, boolean)[6]" classname="com.itmo.nxzage.web4.services.AreaCheckServiceTest" time="0">
+<testcase name="isHitTest(double, double, double, boolean)[6]" classname="com.itmo.nxzage.web4.services.AreaCheckServiceTest" time="0.001">
 <system-out><![CDATA[
 unique-id: [engine:junit-jupiter]/[class:com.itmo.nxzage.web4.services.AreaCheckServiceTest]/[test-template:isHitTest(double, double, double, boolean)]/[test-template-invocation:#6]
 display-name: JUnit Jupiter > AreaCheckServiceTest > isHitTest(double, double, double, boolean) > [6] "1.5", "2.0", "4.0", "false"
 ]]></system-out>
 </testcase>
-<testcase name="isHitTest(double, double, double, boolean)[7]" classname="com.itmo.nxzage.web4.services.AreaCheckServiceTest" time="0">
+<testcase name="isHitTest(double, double, double, boolean)[7]" classname="com.itmo.nxzage.web4.services.AreaCheckServiceTest" time="0.001">
 <system-out><![CDATA[
 unique-id: [engine:junit-jupiter]/[class:com.itmo.nxzage.web4.services.AreaCheckServiceTest]/[test-template:isHitTest(double, double, double, boolean)]/[test-template-invocation:#7]
 display-name: JUnit Jupiter > AreaCheckServiceTest > isHitTest(double, double, double, boolean) > [7] "2.0", "-1.0", "4.0", "true"
 ]]></system-out>
 </testcase>
-<testcase name="isHitTest(double, double, double, boolean)[8]" classname="com.itmo.nxzage.web4.services.AreaCheckServiceTest" time="0">
+<testcase name="isHitTest(double, double, double, boolean)[8]" classname="com.itmo.nxzage.web4.services.AreaCheckServiceTest" time="0.001">
 <system-out><![CDATA[
 unique-id: [engine:junit-jupiter]/[class:com.itmo.nxzage.web4.services.AreaCheckServiceTest]/[test-template:isHitTest(double, double, double, boolean)]/[test-template-invocation:#8]
 display-name: JUnit Jupiter > AreaCheckServiceTest > isHitTest(double, double, double, boolean) > [8] "0.0", "0.0", "4.0", "true"
 ]]></system-out>
 </testcase>
-<testcase name="isHitTest(double, double, double, boolean)[9]" classname="com.itmo.nxzage.web4.services.AreaCheckServiceTest" time="0">
+<testcase name="isHitTest(double, double, double, boolean)[9]" classname="com.itmo.nxzage.web4.services.AreaCheckServiceTest" time="0.001">
 <system-out><![CDATA[
 unique-id: [engine:junit-jupiter]/[class:com.itmo.nxzage.web4.services.AreaCheckServiceTest]/[test-template:isHitTest(double, double, double, boolean)]/[test-template-invocation:#9]
 display-name: JUnit Jupiter > AreaCheckServiceTest > isHitTest(double, double, double, boolean) > [9] "2.0", "-3.0", "4.0", "false"
 ]]></system-out>
 </testcase>
-<testcase name="registerHitTest(double, double, double, boolean)[1]" classname="com.itmo.nxzage.web4.services.HitServiceTest" time="0.106">
+<testcase name="registerHitTest(double, double, double, boolean)[1]" classname="com.itmo.nxzage.web4.services.HitServiceTest" time="0.127">
 <system-out><![CDATA[
 unique-id: [engine:junit-jupiter]/[class:com.itmo.nxzage.web4.services.HitServiceTest]/[test-template:registerHitTest(double, double, double, boolean)]/[test-template-invocation:#1]
 display-name: JUnit Jupiter > HitServiceTest > registerHitTest(double, double, double, boolean) > [1] "-2.0", "2.0", "4.0", "true"
 ]]></system-out>
 </testcase>
-<testcase name="registerHitTest(double, double, double, boolean)[2]" classname="com.itmo.nxzage.web4.services.HitServiceTest" time="0.009">
+<testcase name="registerHitTest(double, double, double, boolean)[2]" classname="com.itmo.nxzage.web4.services.HitServiceTest" time="0.01">
 <system-out><![CDATA[
 unique-id: [engine:junit-jupiter]/[class:com.itmo.nxzage.web4.services.HitServiceTest]/[test-template:registerHitTest(double, double, double, boolean)]/[test-template-invocation:#2]
 display-name: JUnit Jupiter > HitServiceTest > registerHitTest(double, double, double, boolean) > [2] "-3.0", "3.0", "4.0", "false"
 ]]></system-out>
 </testcase>
-<testcase name="isHitTest(double, double, double, boolean)[10]" classname="com.itmo.nxzage.web4.services.AreaCheckServiceTest" time="0">
+<testcase name="isHitTest(double, double, double, boolean)[10]" classname="com.itmo.nxzage.web4.services.AreaCheckServiceTest" time="0.001">
 <system-out><![CDATA[
 unique-id: [engine:junit-jupiter]/[class:com.itmo.nxzage.web4.services.AreaCheckServiceTest]/[test-template:isHitTest(double, double, double, boolean)]/[test-template-invocation:#10]
 display-name: JUnit Jupiter > AreaCheckServiceTest > isHitTest(double, double, double, boolean) > [10] "-2.0", "-2.0", "4.0", "false"
